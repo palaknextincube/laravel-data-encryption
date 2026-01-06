@@ -1,12 +1,12 @@
 {
-    "name": "palak-rajput/laravel-data-encryption",
+    "name": "palaknextincube/laravel-data-encryption",
     "description": "Encrypt sensitive data while maintaining searchability with Meilisearch",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Palak Rajput",
-            "email": "palak@example.com"
+            "email": "palak.nextincube@gmail.com"
         }
     ],
     "require": {
@@ -43,4 +43,5 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
+
 }
