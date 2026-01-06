@@ -96,12 +96,12 @@ class InstallEncryptionCommand extends Command
      */
     protected function createMigrationIfMissing()
     {
-        $vendorDir = base_path('vendor/palak-rajput/laravel-data-encryption');
+        $vendorDir = base_path('vendor/palaknextincube/laravel-data-encryption');
         
         // Check if package is installed via composer
         if (!File::exists($vendorDir)) {
             // Try to find it in a different location
-            $vendorDir = base_path('vendor/palak-rajput/laravel-data-encryption');
+            $vendorDir = base_path('vendor/palaknextincube/laravel-data-encryption');
             
             if (!File::exists($vendorDir)) {
                 $this->warn('⚠️  Package not found in vendor directory. Using direct migration creation.');
@@ -494,5 +494,6 @@ return new class extends Migration
         $this->info('💡 For automatic setup, run: php artisan data-encryption:install --auto');
     }
 }
+
 
 
